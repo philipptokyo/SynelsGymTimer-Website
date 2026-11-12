@@ -1,13 +1,13 @@
 # Privacy Policy for SynelsGymTimer
 
-**Last updated:** [Publication Date]
+**Last updated:** 2026-11-12
 
 ## 1. Data Controller and Contact
 
 The person responsible for data processing in connection with SynelsGymTimer is:
 
-[Full Name]  
-Email: [Contact Email Address]
+Philipp Schrock  
+Email: Philipp.Schrock@iCloud.com
 
 This Privacy Policy explains how personal data is processed when using the SynelsGymTimer app for iPhone and Apple Watch, as well as when visiting this website.
 
