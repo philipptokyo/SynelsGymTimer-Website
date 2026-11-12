@@ -20,7 +20,7 @@ The app does not contain advertisements, advertising SDKs, or third-party analyt
 
 Workout settings and health data are not transmitted to servers operated by the developer. The developer does not have access to your health data through the app's normal workout functions.
 
-Additional information may be processed through Apple TestFlight, when you contact the developer, or when you visit this website, as described below.
+Additional information may be processed through Apple TestFlight, when you contact the developer, when you visit this website, or when the Watch app downloads this policy or offers its webpage through Handoff, as described below.
 
 ## 3. Workout Settings and Local Storage
 
@@ -144,7 +144,9 @@ For further information:
 
 If you contact the developer by email, your email address, message content, and any attachments are processed to respond to your inquiry.
 
-Messages are handled using the developer's email service, Apple iCloud Mail.
+Messages are received and stored using the developer's Apple iCloud Mail account. Apple processes message contents and associated technical information to provide the email service.
+
+[Apple Privacy Policy](https://www.apple.com/legal/privacy/)
 
 For inquiries necessary to provide the app's requested functionality, the legal basis is Article 6(1)(b) GDPR, where applicable. For other inquiries, the legal basis is Article 6(1)(f) GDPR. The legitimate interest is to respond to messages and provide support.
 
@@ -152,33 +154,63 @@ Correspondence is retained only as long as needed to handle the inquiry and nece
 
 Please do not send health data or other sensitive information unless it is necessary for your inquiry.
 
-## 9. Website Hosting Through GitHub Pages
+## 9. Website Hosting, Policy Downloads and Handoff
 
-This website is hosted through GitHub Pages, a service provided by GitHub, Inc., United States.
+### Website and downloads from GitHub
 
-When you access the website, GitHub processes technical connection information to deliver the page and maintain the security of its service. GitHub states that visitors' IP addresses are logged and stored for security purposes.
+The public policy webpage is hosted through GitHub Pages. The Watch app downloads the Markdown source of this policy from the same public repository through raw.githubusercontent.com, also operated by GitHub. The developer maintains one source file for both displays.
 
-The legal basis for providing this website is Article 6(1)(f) GDPR. The legitimate interest is to make information about SynelsGymTimer and its privacy practices available reliably and securely.
+The Watch app checks for an updated policy when you open its privacy screen or select Refresh or Retry. It does not periodically download the policy during workouts.
+
+When your browser or the Watch app requests the policy, GitHub receives technical connection information, including your IP address, to deliver the content and secure its services. GitHub states that IP addresses of GitHub Pages visitors are logged and stored for security purposes. The Watch app does not include workout settings, health records, or the app's settings-transfer identifiers in these download requests.
+
+The legal basis is Article 6(1)(f) GDPR. The legitimate interest is to provide accessible and up-to-date privacy information securely.
 
 The developer does not add advertising services, analytics tools, tracking pixels, or third-party font services to this website.
 
-GitHub may process information outside the European Economic Area, including in the United States. Details about GitHub's processing, retention, and international transfer safeguards are available in its privacy statement:
+For information about GitHub's processing and retention:
 
 [GitHub General Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
+
+### Local offline copy
+
+After a successful download, the Watch app stores the policy text and download date locally. This cached copy remains readable without an internet connection and is replaced after a successful update. An unsuccessful download does not replace it.
+
+The displayed download date indicates when the copy was retrieved, not when the policy was last changed. The policy's Last updated field indicates its stated revision date.
+
+The cache remains until it is replaced or the corresponding app data is removed. Device backups may retain a copy according to your Apple settings. The legal basis is Article 6(1)(f) GDPR; the legitimate interest is to make privacy information available when the Watch is offline.
+
+### View on iPhone
+
+If you select View on iPhone, the Watch app offers the public webpage address through Apple's Handoff feature while the privacy screen remains open. This allows a compatible nearby device to offer continuation in a browser. The app does not automatically open the browser or confirm that another device has received the offer.
+
+The app supplies only the public policy address and its title for this activity. It does not include health records or workout settings. Availability depends on your devices and Apple settings.
+
+The legal basis is Article 6(1)(b) GDPR, where applicable, to provide the continuation feature you request. Apple's processing is described in its privacy information:
+
+[Apple Privacy Policy](https://www.apple.com/legal/privacy/)
 
 ## 10. Recipients and International Processing
 
 Depending on the features and services used, information may be processed by:
 
-- **Apple**, in connection with HealthKit, device services, backups, TestFlight, and email communication
-- **GitHub**, when you access this website
-- **The developer**, when reviewing TestFlight information or responding to messages
+- **Apple**, when providing Apple Health, optional device backups and synchronisation, TestFlight, iCloud Mail, and Handoff. These are separate services; using one does not mean health records are sent through the others.
+- **GitHub**, when delivering the policy webpage or its Markdown source to your browser or Watch.
+- **The developer**, when reviewing TestFlight information or responding to messages.
 
 The developer does not receive health data through the app's normal workout functions and does not sell personal data or share it for advertising.
 
-Apple and GitHub may process information outside the European Economic Area. Their respective privacy information describes their international processing and transfer safeguards.
+Apple and GitHub may process information outside the European Economic Area, including in the United States.
 
-**Draft item to resolve before finalization:** Confirm the applicable service providers, their roles, and the specific international transfer arrangements relevant to this app, website, and support email.
+Apple's general privacy policy identifies Apple Distribution International Limited in Ireland as the controller for personal data relating to individuals in the EEA, UK and Switzerland. Apple describes the use of European Commission Standard Contractual Clauses for international transfers from those regions. Its policy explains how to request a copy of those clauses:
+
+[Apple: Transfer of Personal Data Between Countries](https://www.apple.com/legal/privacy/en-ww/)
+
+GitHub's general privacy statement covers processing by GitHub, Inc. and GitHub B.V. It describes reliance on European Commission Standard Contractual Clauses for certain international transfers and participation in the EU–US Data Privacy Framework for covered transfers. Details and links to the safeguards are provided in its policy:
+
+[GitHub: International Data Transfers](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement#international-data-transfers)
+
+**Draft item to resolve before finalisation:** The provider statements above describe the providers' published arrangements. Confirm the contractual roles and any agreements required for the developer's particular use of iCloud Mail, GitHub and TestFlight. This draft does not claim that an individual account automatically establishes a data processing agreement.
 
 ## 11. Your Data Protection Rights
 
@@ -215,4 +247,6 @@ Contacting the developer and submitting feedback are voluntary. Participation in
 
 This Privacy Policy may be updated when the app's functionality, data processing, or supporting services change.
 
-The latest version is available on this website. A copy included in the Watch app reflects the version supplied with that app release.
+The latest version is available on this website. The Watch app retrieves the policy from the same maintained Markdown source when you open its privacy screen or request a refresh.
+
+There is no policy text bundled with the app release. When an update cannot be downloaded, the Watch app displays its last successfully downloaded copy, if available, and indicates that the refresh failed. Consequently, an offline copy may be older than the current online version.
